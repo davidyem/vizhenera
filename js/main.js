@@ -17,6 +17,7 @@ function sendAjaxForm(result_form, ajax_form, url) {
             result = JSON.parse(response);
             $('#resencrypt').html('<span id="result">Результат шифрування: </span><span id="value"> ' + result.textencrypt + '</span><br>');
             document.getElementById('text1').value = "";
+            document.getElementById('key').value = "";
             document.getElementById('text2').value = result.textencrypt;
             document.getElementById('keydec').value = result.keys;
         },

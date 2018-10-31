@@ -20,7 +20,7 @@
     background-color: #6c7cc2;
 }
 
-#text1, #text2{
+#text1, #text2, #key{
     min-width: 70%;
     margin: 10px 0 10px 0;
     border-radius: 5px;

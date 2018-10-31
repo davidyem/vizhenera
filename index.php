@@ -18,7 +18,7 @@
                 <h4>ВВЕДІТЬ ПОВІДОМЛЕННЯ ДЛЯ ШИФРУВАННЯ</h4><br/>
                 <input id="text1" type="text" name="messagetoencrypt"><br/>
                 <h4>ВВЕДІТЬ КЛЮЧ ДЛЯ ШИФРУВАННЯ</h4><br/>
-                <input id="text1" type="text" name="key"><br/>
+                <input id="key" type="text" name="key"><br/>
                 <button id="encrypt" name="submitencrypt">Зашифрувати</button>
             </form>
             <br/>
