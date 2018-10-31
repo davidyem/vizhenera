@@ -3,7 +3,7 @@ if(!empty($_POST['messagetoencrypt']) && !empty($_POST['key'])) {
     $message = str_split(strtoupper(trim($_POST["messagetoencrypt"], " ")));
     $keys = strtoupper(trim($_POST["key"], " "));
     if(strlen($keys) != sizeof($message)) {
-        $keys = str_repeat($keys, (int)(sizeof($message) / strlen($keys) + 1 ));
+        $keys = str_repeat($keys, (int)(sizeof($message) / strlen($keys) + 1));
     }
     //$keys = substr($keys, 0, sizeof($message));
     $keys = str_split($keys);
