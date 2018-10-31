@@ -24,7 +24,6 @@
             <br/>
             <div id="resencrypt"></div>
         </div>
-        <?php echo floor(111%26)?>
         <div class="col-lg-6 text-center">
             <? /*= $serialnum !== null ? var_dump($serialnum) : " ";*/ ?>
             <form id="ajax_form2" method="post" action="">
